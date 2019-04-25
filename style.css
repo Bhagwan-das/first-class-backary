@@ -1,0 +1,1218 @@
+@font-face {
+  font-family: "DIN-font";
+  src: url("fonts/DIN\ Regular.ttf");
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: DIN-font;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 9px;
+}
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 4px;
+}
+}
+
+/*---------------------------------------
+     banner image 
+-----------------------------------------*/
+
+  .page-banner {
+    padding: 10px 0 40px 0;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: none;
+    
+  }
+
+  .other-pages-banner {
+    height: 380px;
+  }
+
+  .page-banner__bg-image {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .page-banner-effect{
+    width: 100%;
+    height: auto;
+    margin: -10px 0 0 0;
+    position: absolute;
+  }
+
+  
+@media screen and (max-width: 1050px) {
+  .page-banner {
+    padding: 10px 0 40px 0;
+    height: 520px;
+    
+  }
+  .other-pages-banner {
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .page-banner {
+    padding: 10px 0 40px 0;
+    height: 380px;
+    
+  }
+  .other-pages-banner {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-banner {
+    padding: 10px 0 40px 0;
+    height: 170px;
+    
+  }
+  .other-pages-banner {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .page-banner {
+    padding: 10px 0 40px 0;
+    height: 150px;
+    
+  }
+  .other-pages-banner {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-banner {
+    padding: 10px 0 40px 0;
+    height: 120px;
+    
+  }
+  .other-pages-banner {
+    height: 50px;
+  }
+}
+
+/*---------------------------------------
+     Navigation menu /header section
+-----------------------------------------*/ 
+
+.nev-menu {
+  margin: 0 auto;
+  width: 57%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.pages {
+  width: 47%;
+}
+
+.nev-menu ul {
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  padding-top: 3vw;
+  padding-left: 10vw;
+}
+
+.pages ul {
+  padding-left: 1vw;
+}
+
+
+.nev-menu ul li {
+  float: none; 
+  display: inline-block;
+}
+
+.nev-menu ul li:nth-child(1) {
+  float: left;
+}
+
+.nev-menu ul li:nth-child(2) {
+  float: left;
+}
+
+.nev-menu ul li:nth-child(3) {
+  float: left;
+}
+
+
+.nev-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 0.72vw 1.09vw;
+}
+
+.nev-menu ul li a:hover {
+  text-decoration-line: underline;
+}
+
+.site-header {
+  width: 100%;
+  position: relative;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.logo-area {
+  display: block;
+  width: 7.5%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 0.71vw;
+  content: "";
+  margin-left: -3.75%;
+}
+
+.header-login {
+  display: block;
+  float: right;
+  padding-top: 3.27vw;
+  padding-right: 2.5vw;
+}
+
+.header-login a {
+  text-decoration: none;
+  color: #fff;
+  border: 0.072vw solid #fff;
+  padding: 0.72vw 0.58vw 0.72vw 0.58vw;
+}
+
+
+@media screen and (max-width: 450px) {
+  .nev-menu {
+      width: 81%;
+    }
+  
+  .pages {
+      width: 70%;
+  }
+  
+  .nev-menu ul {
+      padding-top: 2.5vw;
+      padding-left: 12.8vw;
+  }
+
+  .pages ul {
+    padding-left: 1.5vw;
+  }
+
+  .site-header {
+      font-size: 1.8vw;
+  }
+
+  .header-login {
+      padding-right: 0.5vw;
+  }
+
+}
+
+/*---------------------------------------
+     footer-section
+-----------------------------------------*/ 
+
+.footer {
+  text-align: center;
+}
+
+.footer-main {
+  width: 100%;
+  height: 300px;
+  background: rgb(44, 44, 44);
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  left: 46.3%;
+  position: relative;
+  display: block;
+  margin-bottom: -50px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-logo {
+    left: 35%;
+  }
+}
+
+.footer-main-part1 {
+  padding-top: 90px;
+  font-size: 15px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.footer-main-part2 {
+  padding-top: 20px;
+  font-size: 15px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.linkedin-logo {
+  position: relative;
+  padding: 15px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.linkedin-logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-part-buttom {
+  width: 100%;
+  height: 50px;
+}
+
+.footer-part-buttom-text {
+  padding: 5px 0 5px 80px;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block
+}
+
+@media screen and (max-width: 450px) {
+  .footer-part-buttom-text {
+    animation-direction: right;
+    padding: 20px 0 20px 10px;
+    font-size: 5px;
+  }
+}
+
+.beterleven {
+  float: right;
+  padding: 5px;
+}
+
+
+/*---------------------------------------
+     Banner-Text-contents
+-----------------------------------------*/ 
+
+.first-class-bakery {
+  position: relative;
+  color: #fff;
+  font-size: 95px;
+  Padding-top: 80px;
+  padding-left: 180px;
+  font-weight: bold;
+  line-height: 95px;
+}
+
+.producten-banner-title {
+  position: relative;
+  color: #fff;
+  font-size: 40px;
+  Padding-top: 200px;
+  padding-left: 180px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.banner-content {
+  position: relative;
+  Width: 390px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 185px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .first-class-bakery {
+    font-size: 85px;
+    Padding-top: 80px;
+    padding-left: 130px;
+    line-height: 85px;
+  }
+  
+  .producten-banner-title {
+    font-size: 35px;
+    Padding-top: 120px;
+    padding-left: 130px;
+    line-height: 50px;
+  }
+  
+  .banner-content {
+    Width: 390px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 135px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .first-class-bakery {
+    font-size: 60px;
+    Padding-top: 60px;
+    padding-left: 110px;
+    line-height: 65px;
+  }
+  
+  .producten-banner-title {
+    font-size: 30px;
+    Padding-top: 100px;
+    padding-left: 110px;
+    line-height: 40px;
+  }
+  
+  .banner-content {
+    Width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 115px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .first-class-bakery {
+    font-size: 30px;
+    Padding-top: 70px;
+    padding-left: 45px;
+    line-height: 30px;
+  }
+  
+  .producten-banner-title {
+    font-size: 25px;
+    Padding-top: 70px;
+    padding-left: 45px;
+    line-height: 30px;
+  }
+  
+  .banner-content {
+    font-size: 0%;
+  }
+}
+
+/*---------------------------------------
+     main-body-contents-part-1
+-----------------------------------------*/
+
+.main-part1-container {
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+
+}
+
+.brand-logo {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin-top: -120px;
+  padding-right: 200px;
+  float: right;
+}
+
+.ons-verhaal {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.main-part1-paragraph  {
+  padding: 40px 220px 0 220px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.lees-meer {
+  text-align: center;
+  padding: 30px 0 0 0;
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+
+
+@media screen and (max-width: 1050px) {  
+  .brand-logo {
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    padding-right: 120px;
+    float: right;
+  }
+  
+  .ons-verhaal {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+  .main-part1-paragraph  {
+    padding: 20px 100px 0 100px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .brand-logo {
+    width: 250px;
+    height: 250px;
+    margin-top: -80px;
+    padding-right: 70px;
+    float: right;
+  }
+  
+  .ons-verhaal {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  
+  .main-part1-paragraph  {
+    padding: 15px 50px 0 50px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -25px;
+    padding-right: 20px;
+    float: right;
+  }
+  
+  .ons-verhaal {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  
+  .main-part1-paragraph  {
+    padding: 0 20px 0 20px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+/*---------------------------------------
+     main-body-items-contents + images
+-----------------------------------------*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.main-body-items-contents {
+  width: 98%;
+  height: 122vw;
+  margin: 1%;
+  padding-top: 50px;
+  background-color: none;
+}
+
+.production {
+  height: 155vw;
+}
+
+.special {
+  height: 61.8vw;
+}
+
+.glutenvrij {
+  height: 120vw;
+}
+
+.over-ons {
+  height: 91vw;
+}
+
+.product-deatail {
+  height: 32.7vw;
+  background-color: none;
+}
+
+.item {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 30.8vw;
+}
+
+
+.item-background1 {
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+}
+
+.item-background2 {
+  background-color: #fff;
+}
+
+.item-background3 {
+  background-color: #fff;
+}
+
+.item-background4 {
+  background-color: rgb(44, 44, 44);
+  color: #fff;
+}
+
+.content-text-part1 {
+  width: 370px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0 70px;
+}
+
+.heading-part1 {
+  font-size: 1.8rem;
+  padding: 60px 70px 10px 70px;
+  font-weight: bold;
+}
+
+.content-text-part2 {
+  width: 370px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0 0 0 200px;
+}
+
+.heading-part2 {
+  font-size: 1.8rem;
+  padding: 70px 0 10px 200px;
+  font-weight: bold;
+}
+
+.content-text-part3 {
+  width: 370px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0 0 0 70px;
+}
+
+.heading-part3 {
+  font-size: 1.8rem;
+  padding: 150px 0 0 70px;
+  font-weight: bold;
+}
+
+
+
+.content-text-part4 {
+  width: 370px;
+  line-height: 1.8rem;
+  font-size: 12px;
+  padding: 0 0 0 200px;
+}
+
+.heading-part4 {
+  font-size: 1.8rem;
+  padding: 100px 0 0 200px;
+  font-weight: bold;
+}
+
+.lees-meer-part1 {
+  font-size: 1.5rem;
+  padding: 20px 0 0 70px;
+  position: relative;
+}
+
+.lees-meer-part2 {
+  font-size: 1.5rem;
+  padding: 20px 0 0 200px;
+  position: relative;
+}
+
+.lees-meer-part3 {
+  font-size: 1.5rem;
+  padding: 20px 0 0 70px;
+  position: relative;
+}
+
+.lees-meer-part4 {
+  font-size: 1.5rem;
+  padding: 20px 0 0 200px;
+  position: relative;
+}
+
+.lees-meer-part1 hr {
+  margin: 5px 520px 0 0;
+  border-style: groove;
+}
+
+.lees-meer-part2 hr {
+  margin: 5px 390px 0 0;
+  border-style: groove;
+}
+
+.lees-meer-part3 hr {
+  margin: 5px 520px 0 0;
+  border-style: groove;
+}
+
+.lees-meer-part4 hr {
+  margin: 5px 390px 0 0;
+  border-style: groove;
+}
+
+
+.heading-part1-special {
+  font-size: 1.8rem;
+  padding: 120px 70px 10px 70px;
+  font-weight: bold;
+}
+
+.heading-part2-special {
+  font-size: 1.8rem;
+  padding: 100px 0 10px 200px;
+  font-weight: bold;
+}
+
+.special-one hr {
+  margin: 5px 480px 0 0;
+}
+
+.special-two hr {
+  margin: 5px 350px 0 0;
+}
+
+.lees-meer1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.lees-meer2 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 950px) {
+  .content-text-part1 {
+    width: 370px;
+    padding: 0 10px;
+  }
+  
+  .heading-part1 {
+    padding: 20px 10px 0px 10px;
+  }
+  
+  .content-text-part2 {
+    width: 300px;
+    padding: 0 0 0 30px;
+  }
+  
+  .heading-part2 {
+    padding: 20px 0 10px 30px;
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  .content-text-part1 {
+    width: 120px;
+    padding: 0 5px;
+  }
+  
+  .heading-part1 {
+    padding: 5px 5px 0px 5px;
+  }
+  
+  .content-text-part2 {
+    width: 120px;
+    padding: 0 0 0 15px;
+  }
+  
+  .heading-part2 {
+    padding: 5px 0 0px 15px;
+  }
+}
+
+
+/*---------------------------------------
+     faddle-image + contanet-part
+-----------------------------------------*/
+
+
+.faddle-images-cow-bread-gluten-container {
+  width: 66%;
+  height: 400px;
+  background-color: none;
+  margin: 90px 17% 0 17%;
+  position: absolute;
+}
+
+.cow-bread-gluten {
+  float: left;
+  width: 25.33%;
+  height: 150px;
+  background-color: none;
+  margin: 0 4% 0 4%;
+  text-align: center;
+}
+
+
+.gluten img {
+  width: 130px;
+  height: auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.cow img {
+  padding: 50px 0 0 10px;
+}
+
+.bread img {
+  padding: 70px 0 0 0;
+}
+
+.faddle-images-cow-bread-gluten-text-container {
+  width: 66%;
+  height: 400px;
+  background-color: none;
+  margin: 100px 17% 0 17%;
+}
+
+.cow-bread-gluten-title {
+  padding: 110px 0 0 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cow-bread-gluten-title hr {
+  display: block;
+  margin: 15px 10px 10px 10px;
+  border-style: solid;
+  
+}
+
+.cow-bread-gluten-content {
+  font-size: 12px;
+  padding: 60px 0 0 0;
+}
+
+
+@media screen and (max-width: 450px) {
+  .faddle-images-cow-bread-gluten-container {
+    height: 400px;
+    margin: 30px 17% 0 17%;
+  }
+  
+  .cow-bread-gluten {
+    width: 25.33%;
+    height: 150px;
+    margin: 0 4% 0 4%;
+  }
+  
+  
+  .gluten img {
+    width: 30px;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+  
+  .cow img {
+    padding: 8px 0 0 10px;
+  }
+  
+  .bread img {
+    padding: 18px 0 0 0;
+  }
+  
+  .faddle-images-cow-bread-gluten-text-container {
+    width: 66%;
+    height: 290px;
+    margin: 50px 17% 0 17%;
+  }
+  
+  .cow-bread-gluten-title {
+    padding: 0px 0 0 0;
+    font-size: 14px;
+  }
+  
+  .cow-bread-gluten-title hr {
+    margin: 5px 0;
+    
+  }
+  
+  .cow-bread-gluten-content {
+    font-size: 10px;
+    padding: 0 0 0 0;
+    font-size: 8px;
+  }
+}
+
+/*---------------------------------------
+     bottom-background-image
+-----------------------------------------*/
+
+.bottom-background-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.bottom-background-image-content {
+  width: 100%;
+  height: 550px;
+  background-color: none;
+}
+
+.bottom-background-image-gaping {
+  width: 100%;
+  height: 630px;
+  background-color: none;
+}
+
+.content-background {
+  position: relative;
+  width: 390px;
+  height: 440px;
+  background-color: rgb(44, 44, 44);
+  opacity: .80;
+  margin: 90px 0 0 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.bottom-background-title {
+  padding: 120px 50px 0 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bottom-background-title hr {
+  margin: 8px 70px 0 70px;
+}
+
+.bottom-background-content {
+  padding: 25px 80px 0 80px;
+  font-size: 12px;
+}
+
+
+
+.body-part-bottom-text-field {
+  text-align: center;
+  font-size: 20px;
+  margin: 70px 300px 50px 300px;
+}
+
+@media screen and (max-width: 450px) {
+  .bottom-background-image-content {
+    height: 150px;
+  }
+  
+  .bottom-background-image-gaping {
+    width: 100%;
+    height: 630px;
+  }
+  
+  .content-background {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+    opacity: .80;
+    margin: 20px 0 0 20px;
+  }
+  
+  .bottom-background-title {
+    padding: 5px 5px 0 5px;
+    font-size: 15px;
+  }
+  
+  .bottom-background-title hr {
+    margin: 0;
+  }
+  
+  .bottom-background-content {
+    padding: 5px 5px 0 5px;
+    font-size: 6px;
+  }
+  
+  
+  
+  .body-part-bottom-text-field {
+    text-align: center;
+    font-size: 20px;
+    margin: 70px 300px 50px 300px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .body-part-bottom-text-field {
+    font-size: 10px;
+    margin: 10px;
+  }
+}
+
+/*---------------------------------------
+     personal-saying-information
+-----------------------------------------*/
+
+.presonal-saying{
+  width:100%;
+  height: 1000px;
+  background-color: rgb(244 243 243);
+  margin: 50px 0 0 0;
+}
+
+.presonal-saying__title {
+  font-size: 20px;
+  text-align: center;
+  padding: 60px 0 0 0;
+  font-weight: bold;
+}
+
+.presonal-saying-container {
+  width: 60%;
+  height: auto;
+  background-color: none;
+  margin: 50px 20% 0 20%;
+}
+
+.presonal-saying-individual-container {
+  display: block;
+  width: 47.7%;
+  height: 250px;
+  background-color: none;
+  margin: 1%;
+  padding: 0;
+  position: relative;
+  float: left;
+}
+
+.presonal-saying-contents {
+  font-size: 12px;
+  margin: -15px 0 0 0;
+}
+
+#presonal-saying-heading {
+  font-size: 15px;
+}
+
+/*---------------------------------------
+     ouni-logo
+-----------------------------------------*/
+
+.ouni-logo {
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------------------------------------
+     contact-style
+-----------------------------------------*/
+.contact-details-form {
+  background-color: rgb(244 243 243);
+}
+
+.contect-details-title {
+  font-size: 30px;
+  padding: 100px 0 0 70px;
+}
+
+.contect-deatails-address {
+  font-size: 18px;
+  padding: 20px 0 0 70px;
+  line-height: 25px;
+}
+
+.contect-deatails-connect {
+  font-size: 18px;
+  padding: 0 0 0 70px;
+}
+.contect-form form {
+  padding: 50px 0 0 200px;
+  position: relative;
+}
+
+.contect-form input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.contect-form textarea {
+  width: 400px;
+  height: 130px;
+  padding: 10px;
+  margin: 10px;
+  resize: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.contect-form input[type=submit] {
+  width: 100px;
+  border: none;
+  background-color: rgb(244 243 243);
+  margin-left: -10px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.contect-form input[type=submit]:hover {
+  text-decoration-line: underline;
+}
+
+
+
+/*---------------------------------------
+     history-Flow-chart
+-----------------------------------------*/
+
+
+.history-flow-chart {
+  width: 60%;
+  height: 1580px;
+  position: relative;
+  background-color: none;
+  margin: 30px 20% 0 20%;
+}
+
+.history-flow-chart-side1 {
+  width: 49.7%;
+  height: 1500px;
+  background-color: none;
+  float: left;
+  border:  1px solid rgb(44, 44, 44);
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+}
+
+.history-flow-chart-side2 {
+  width: 50%;
+  height: 1500px;
+  background-color: none;
+  float: left;
+  border:  1px solid rgb(44, 44, 44);
+  border-bottom: none; 
+  border-right: none;
+  border-top: none;
+}
+
+.history-flow-chart-img-side1 {
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 210px;
+  position: absolute;
+}
+
+.horizontal-line-side1 {
+  height: 2px;
+  position: relative;
+  background-color: #000000;
+  margin: 150px 0 0 0;
+}
+
+.history-flow-chart-img-side2 {
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 40px;
+  position: absolute;
+}
+
+.horizontal-line-side2 {
+  height: 2px;
+  position: relative;
+  background-color: #000000;
+  margin: 300px 0 0 0;
+}
+
+.history-flow-chart-side1-year {
+  position: absolute;
+  margin: 125px 0 0 80px;
+  font-weight: bold;
+}
+
+.history-flow-chart-side1-text {
+  font-size: 12px;
+  line-height: 5px;
+  margin: 15px 0 0 0;
+  position: absolute;
+}
+
+.history-flow-chart-side2-year {
+  position: absolute;
+  margin: 275px 0 0 280px;
+  font-weight: bold;
+}
+
+.history-flow-chart-side2-text {
+  font-size: 12px;
+  line-height: 5px;
+  margin: 15px 0 0 200px;
+  position: absolute;
+}
+
+
+.down-line-side1 {
+  margin: 300px 0 0 0;
+}
+
+.down-line-side2 {
+  margin: 300px 0 0 0;
+}
+
+.down-side1-year {
+  margin: 275px 0 0 80px;
+}
+
+.down-side2-year {
+  margin: 275px 0 0 280px;
+}
+
+
+
+/*---------------------------------------
+     mobile-view test
+-----------------------------------------*/
+
+
+
+@media screen and (max-width: 1499px) {
+
+}

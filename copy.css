@@ -1,0 +1,84 @@
+.nev-menu {
+    margin: 0 auto;
+    width: 750px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .pages {
+    width: 640px;
+  }
+  
+  .nev-menu ul {
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    padding-top: 40px;
+    padding-left: 130px;
+  }
+  
+  .pages ul {
+    padding-left: 15px;
+  }
+  
+  .nev-menu ul li {
+    float: none; 
+    display: inline-block;
+  }
+  
+  .nev-menu ul li:nth-child(1) {
+    float: left;
+  }
+  
+  .nev-menu ul li:nth-child(2) {
+    float: left;
+  }
+  
+  .nev-menu ul li:nth-child(3) {
+    float: left;
+  }
+  
+  
+  .nev-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+  }
+  
+  .nev-menu ul li a:hover {
+    text-decoration-line: underline;
+  }
+  
+  .site-header {
+    width: 100%;
+    position: relative;
+    font-size: 10pt;
+    text-align: center;
+  }
+  
+  .logo-area {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    content: "";
+    margin-left: -50px;
+  }
+  
+  .header-login {
+    display: inline-block;
+    float: right;
+    padding-top: 45px;
+    padding-right: 30px;
+  }
+  
+  .header-login a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 8px 10px 8px;
+  }
+  
